@@ -1,0 +1,78 @@
+.suggession-box{
+    padding: 70px 0px 0px 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(15,15,15,1);
+    z-index: 3;
+    position: fixed;
+}
+.box{
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    overflow-x: visible ;
+}
+
+.suggession-button{
+    background-color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 7px;
+    padding: 8px 12px;
+    color: white;
+    margin: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    text-wrap: nowrap;
+    
+}
+
+.suggession-button:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+#selected-suggession-button{
+    background-color: rgb(244, 244, 244);
+    border: none;
+    border-radius: 8px;
+    padding: 0px 12px;
+    color: rgb(0, 0, 0);
+    margin: 4px;
+}
+
+.suggession-righ-arrow-icon{
+    width: 7px;
+}
+.suggession-righ-arrow-button{
+    background-color: transparent;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.suggession-righ-arrow-button:hover{
+    background-color: rgb(81, 81, 81);
+}
+
+
+.outer-suggession-arrow{
+    position: fixed;
+}
+
+.middle-suggession-arrow{
+    position: relative;
+}
+.inner-suggession-arrow{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    left: 930px;
+    width: 100px;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(15,15,15,1) 50%, rgba(15,15,15,1)100%);
+}
+
+
+#left-button-suggession{
+    margin-right: 0;
+
+}

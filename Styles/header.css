@@ -1,0 +1,254 @@
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 5px;
+    position: fixed;
+    background-color: rgb(15, 15, 15);
+    z-index: 5;
+}
+.menu-bar-icon{
+    width: 30px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    
+    width: 275px;
+    height: 100%;
+    padding-left: 20px;
+}
+.menu-icon{
+    width: 20px;
+    height: 20px;
+}
+.menu-icon-section{
+    cursor: pointer;
+    padding: 10px 13px 10px 13px;
+    border-radius:20px;
+    background-color: transparent;
+    
+}
+
+.menu-icon-section:hover{
+    background-color: rgb(40, 40, 40);
+}
+
+
+.menu-icon-section:hover .menu-icon{
+    margin: 0;
+}
+.home-icon-section{
+    position: relative;
+}
+.youtube-icon{
+    width: 90px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.in-text{
+    color: rgb(180, 180, 180);
+    position: absolute;
+    top: 30px;
+    right: -13px;
+    font-size: 10px;
+}
+
+
+
+.middle-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 70px;
+
+}
+.search-section{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+.search-bar-section{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.search-bar{
+    flex: 1;
+    color: rgb(125, 125, 125);
+    font-size: 17px;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 18px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 40px;
+    border: 1px solid rgb(71, 71, 71);
+    
+}
+.search-button-section{
+    cursor: pointer;
+    position:relative;
+}
+
+
+.search-button{
+    height: 43px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 0px 50px 50px 0px;
+    position: absolute;
+    right: 0px;
+    border: 1px;
+    padding: 0px 20px 0px 18px;
+    z-index: 1;
+    cursor: pointer;
+}
+.tooltip-search,.tooltip-mic,.tooltip-upload,.tooltip-notification{
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    font-size: 12px;
+    z-index: 100;
+    border-radius: 7px;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    bottom:-60px;
+    left: -40px;
+    opacity: 0;
+    text-wrap: nowrap;
+    justify-content: center;
+    transition:opacity 0.3s;
+    pointer-events: none;
+}
+
+.tooltip-search{
+    left: -62px;
+}
+.tooltip-upload{
+    left: 6px;
+}
+.tooltip-notification{
+    left: -8px;
+}
+
+.search-button-section:hover .tooltip-search{
+    opacity: 1;
+}
+.tooltip-search:hover{
+    
+}
+
+.search-icon{
+    width: 25px;
+    
+}
+.search-mic-section{
+    display: flex;
+    width: 40px;
+    margin-left: 18px;
+    position: relative;
+    
+}
+
+.search-mic-section:hover .tooltip-mic{
+    opacity: 1;
+}
+
+
+.search-mic-button{
+    background-color:  rgb(44,44,44);
+    border: 1px solid rgb(67, 67, 67);
+    border-radius: 50px;
+    padding: 0px 9px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.search-mic-button:hover{
+    background-color: rgb(66, 66, 66);
+}
+.mic-icon{
+    width: 23px;
+}
+
+
+
+
+
+
+
+
+.right-section{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-section button{
+    border: 1px solid rgb(67, 67, 67);
+    background-color: rgb(40,40,40);
+    margin-left: 15px;
+    margin-right: 2px;
+    border: 0;
+    border-radius: 40px;
+    padding: 5px 7px 5px 7px;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+}
+
+
+.right-section button:hover{
+    background-color: rgb(40,40,40);
+}
+
+.create-button-section{
+    display: flex;
+    position: relative;
+    
+    
+}
+.notification-button-section{
+    display: flex;
+    position:relative
+}
+
+.create-button-section:hover .tooltip-upload{
+    opacity: 1;
+}
+.notification-button-section:hover .tooltip-notification{
+    opacity: 1;
+}
+.upload-icon{
+    width: 27px;
+    cursor:pointer;
+}
+.notification-icon{
+    width: 20px;
+}
+.notification-button-section{
+    position: relative;
+}
+.notification-counter{
+    background-color: rgb(172, 0, 0);
+    position: absolute;
+    border: 0;
+    border-radius: 20px;
+    color:white;
+    padding:2px 5px;
+    top: -5px;
+    right: -8px;
+    font-size:12px;
+}
+.profile-image-section{
+    margin-left:30px;
+    cursor: pointer;
+}
+.profile-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+
+}
